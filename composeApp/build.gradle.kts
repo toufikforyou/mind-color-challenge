@@ -53,6 +53,10 @@ kotlin {
             api(libs.koin.core)
 
             implementation(libs.bundles.ktor)
+
+            // Navigation
+            implementation(libs.navigation.compose)
+            implementation(libs.coil.compose)
         }
         nativeMain.dependencies {
             implementation(libs.ktor.client.darwin)
