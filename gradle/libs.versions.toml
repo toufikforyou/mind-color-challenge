@@ -1,9 +1,9 @@
 [versions]
-agp = "8.8.1"
+agp = "8.8.2"
 android-compileSdk = "35"
 android-minSdk = "24"
 android-targetSdk = "35"
-androidx-activityCompose = "1.10.0"
+androidx-activityCompose = "1.10.1"
 #androidx-appcompat = "1.7.0"
 #androidx-constraintlayout = "2.2.0"
 #androidx-core-ktx = "1.15.0"
@@ -15,6 +15,7 @@ androidx-lifecycle = "2.8.4"
 compose-multiplatform = "1.7.0"
 kotlin = "2.1.10"
 
+kotlinxSerializationJson = "1.8.0"
 ktor = "3.0.3"
 koin = "4.0.0"
 
@@ -22,6 +23,7 @@ navigation-version = "2.8.0-alpha10"
 coil = "3.0.0-alpha06"
 
 [libraries]
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerializationJson" }
 ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
 ktor-client-okhttp = { module = "io.ktor:ktor-client-okhttp", version.ref = "ktor" }
 ktor-client-darwin = { module = "io.ktor:ktor-client-darwin", version.ref = "ktor" }

@@ -5,6 +5,7 @@ plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
+    kotlin("plugin.serialization") version "2.1.10"
 }
 
 kotlin {
@@ -56,6 +57,7 @@ kotlin {
 
             // Navigation
             implementation(libs.navigation.compose)
+            implementation(libs.kotlinx.serialization.json)
             implementation(libs.coil.compose)
         }
         nativeMain.dependencies {
