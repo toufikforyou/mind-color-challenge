@@ -8,7 +8,7 @@ plugins {
 
     alias(libs.plugins.ksp)
     alias(libs.plugins.room)
-    kotlin(libs.versions.kotlinSerializationPlugin.get()) version libs.versions.kotlin.get()
+    kotlin(libs.versions.kotlinSerializationPlugin.get())
 }
 
 kotlin {
@@ -58,6 +58,8 @@ kotlin {
             implementation(libs.koin.compose)
             implementation(libs.koin.compose.viewmodel)
             api(libs.koin.core)
+
+            implementation(libs.lifecycle.viewmodel)
 
             implementation(libs.bundles.ktor)
 
@@ -109,7 +111,7 @@ room {
 }
 
 dependencies {
-    debugImplementation(compose.uiTooling)
     ksp(libs.room.compiler)
+    debugImplementation(compose.uiTooling)
 }
 

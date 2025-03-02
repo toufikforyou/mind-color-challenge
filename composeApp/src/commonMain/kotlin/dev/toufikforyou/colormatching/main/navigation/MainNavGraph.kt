@@ -7,6 +7,7 @@ import androidx.navigation.compose.rememberNavController
 import dev.toufikforyou.colormatching.main.presentation.screens.difficulty.DifficultySelectionScreen
 import dev.toufikforyou.colormatching.main.presentation.screens.guide.GuideScreen
 import dev.toufikforyou.colormatching.main.presentation.screens.home.HomeScreen
+import dev.toufikforyou.colormatching.main.presentation.screens.score.HighScoreScreen
 
 @Composable
 fun MainNavGraph() {
@@ -31,7 +32,7 @@ fun MainNavGraph() {
         }
 
         composable<Screen.HighScores> {
-            // HighScoresScreen(navController = navController)
+            HighScoreScreen(navController = navController)
         }
 
         composable<Screen.Game.Easy> {
