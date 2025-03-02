@@ -5,6 +5,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import dev.toufikforyou.colormatching.main.presentation.screens.difficulty.DifficultySelectionScreen
+import dev.toufikforyou.colormatching.main.presentation.screens.game.EasyGameScreen
 import dev.toufikforyou.colormatching.main.presentation.screens.guide.GuideScreen
 import dev.toufikforyou.colormatching.main.presentation.screens.home.HomeScreen
 import dev.toufikforyou.colormatching.main.presentation.screens.score.HighScoreScreen
@@ -36,11 +37,11 @@ fun MainNavGraph() {
         }
 
         composable<Screen.Game.Easy> {
-//            EasyGameScreen(
-//                navController = navController,
-//                soundManager = soundManager,
-//                isSoundEnabled = isSoundEnabled
-//            )
+            EasyGameScreen(
+                navController = navController,
+                // soundManager = soundManager,
+                // isSoundEnabled = isSoundEnabled
+            )
         }
 
         composable<Screen.Game.Medium> {
