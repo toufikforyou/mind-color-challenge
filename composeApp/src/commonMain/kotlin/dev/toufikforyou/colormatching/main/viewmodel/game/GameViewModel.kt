@@ -64,7 +64,10 @@ class GameViewModel(
     suspend fun saveHighScore(score: Int, level: Int, difficulty: String) {
         if (highScoreDao.isHighScore(difficulty, score)) {
             val newScore = HighScore(
-                score = score, level = level, difficulty = difficulty, date = "2025-03-02"
+                score = score,
+                level = level,
+                difficulty = difficulty,
+                date = getCurrentDateFormatted()
             )
             highScoreDao.insertHighScore(newScore)
             highScoreDao.deleteOldScores(difficulty, newScore.score)
