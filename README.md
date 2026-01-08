@@ -1,7 +1,7 @@
 # 🧠 Mind Color Challenge - The Ultimate Memory & Puzzle Game
 
 [![Release](https://img.shields.io/badge/Release-v1.0.0-blue.svg?style=for-the-badge&logo=android)](https://play.google.com/store/apps/details?id=dev.toufikforyou.colormatching)
-[![Platform](https://img.shields.io/badge/Platform-Android_14-green.svg?style=for-the-badge&logo=android)](https://www.android.com)
+[![Platform](https://img.shields.io/badge/Platform-Android_16-green.svg?style=for-the-badge&logo=android)](https://www.android.com)
 [![Tech](https://img.shields.io/badge/Built_With-Jetpack_Compose-4285F4.svg?style=for-the-badge&logo=jetpackcompose)](https://developer.android.com/jetpack/compose)
 [![Monetization](https://img.shields.io/badge/Monetization-AdMob_Ready-orange.svg?style=for-the-badge&logo=googleads)](https://admob.google.com)
 
@@ -52,16 +52,16 @@ _Simply replace the Ad Unit IDs in the code, and you're ready to earn!_
 
 ## 🛠 Technical Specifications
 
-| Spec             | Details                             |
-| :--------------- | :---------------------------------- |
-| **Language**     | Kotlin 100%                         |
-| **UI Framework** | Jetpack Compose (Material Design 3) |
-| **Architecture** | MVVM + Clean Architecture           |
-| **DI**           | Hilt (Dependency Injection)         |
-| **Async**        | Coroutines & Flow                   |
-| **Local Data**   | DataStore Preferences               |
-| **Min SDK**      | Android 7.0 (API 24)                |
-| **Target SDK**   | Android 14 (API 34)                 |
+| Spec             | Details                               |
+| :--------------- | :------------------------------------ |
+| **Language**     | Kotlin 100%                           |
+| **UI Framework** | Jetpack Compose (Material Design 3)   |
+| **Architecture** | MVVM + Clean Architecture             |
+| **DI**           | Koin (Dependency Injection)           |
+| **Async**        | Coroutines & Flow                     |
+| **Local Data**   | DataStore Preferences & Room Database |
+| **Min SDK**      | Android 8.0 (API 26)                  |
+| **Target SDK**   | Android 16 (API 36)                   |
 
 ---
 
