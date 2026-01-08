@@ -1,6 +1,6 @@
 # 🧠 Mind Color Challenge - The Ultimate Memory & Puzzle Game
 
-[![Release](https://img.shields.io/badge/Release-v1.0.0-blue.svg?style=for-the-badge&logo=android)](https://play.google.com/store/apps/details?id=dev.toufikforyou.colormatching)
+[![Release](https://img.shields.io/badge/Release-v1.0.0-blue.svg?style=for-the-badge&logo=android)](https://github.com/toufikforyou/mind-color-challenge/releases/latest)
 [![Platform](https://img.shields.io/badge/Platform-Android_16-green.svg?style=for-the-badge&logo=android)](https://www.android.com)
 [![Tech](https://img.shields.io/badge/Built_With-Jetpack_Compose-4285F4.svg?style=for-the-badge&logo=jetpackcompose)](https://developer.android.com/jetpack/compose)
 [![Monetization](https://img.shields.io/badge/Monetization-AdMob_Ready-orange.svg?style=for-the-badge&logo=googleads)](https://admob.google.com)
@@ -95,7 +95,15 @@ _Simply replace the Ad Unit IDs in the code, and you're ready to earn!_
 
 Download the demo APK to experience the smooth performance and addictive gameplay yourself!
 
-[Download Color Matching Game](https://github.com/toufikforyou/ColorMatchingGame/releases/latest)
+<div align="center">
+  <a href="https://github.com/toufikforyou/mind-color-challenge/releases/latest">
+    <img src="https://img.shields.io/badge/Download-Demo_APK-00C853?style=for-the-badge&logo=android&logoColor=white" height="50" alt="Download Demo" />
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://codecanyon.net/user/toufikforyou/portfolio">
+    <img src="https://img.shields.io/badge/Buy_Now-CodeCanyon-82B541?style=for-the-badge&logo=envato&logoColor=white" height="50" alt="Buy on CodeCanyon" />
+  </a>
+</div>
 
 ---
 
